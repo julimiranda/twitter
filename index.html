@@ -4,17 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Twitter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header id="header">
+        <img id="arrow" src="./icons/Arrow 1.png">
         <h2>josevaldo</h2>
         <p>12,7 mil tweets</p>
     </header>
     <section id="profile">
-        <img src="./images/Rectangle 2.png" alt="header">
+        <img id="pfp" src="./images/Rectangle 2.png" alt="header">
         <img src="./images/Ellipse 1.png" alt="icon">
-        <button>Editar perfil</button>
+        <h2 id="editar">Editar perfil</h2>
         <h1>josevaldo</h1>
         <p>@joarquitetura</p>
         <p>
@@ -25,9 +32,10 @@
         </p>
         <img src="./icons/bx_calendar.png">
         <p>Ingressou em abril de 2022</p>
-        <p><b>229</b>Seguindo</p>
-        <p><b>27</b>Seguidores</p>
+        <p><b>229</b> Seguindo</p>
+        <p><b>27</b> Seguidores</p>
     </section>
+
     <section id="tweets">
         <ul>
             <li>Tweets</li>
@@ -36,25 +44,32 @@
             <li>Curtidas</li>
         </ul>
         <hr>
-        <img src="./images/Ellipse 1.png">
-        <h3>josevaldo</h3>
-        <p>@joarquitetura</p>
-        <img src="./images/Rectangle 11.png">
-        <img src="./icons/ei_comment.png">
-        <img src="./icons/ei_retweet.png">
-        <img src="./icons/akar-icons_heart.png">
-        <img src="./icons/bytesize_export.png">
+        <div class="tweet">
+            <img class="tweet-icon" src="./images/Ellipse 1.png">
+            <h3>josevaldo</h3>
+            <p>@joarquitetura</p>
+            <img src="./images/Rectangle 11.png">
+            <div id="icons">
+                <img src="./icons/ei_comment.png">
+                <img src="./icons/ei_retweet.png">
+                <img src="./icons/akar-icons_heart.png">
+                <img src="./icons/bytesize_export.png">
+            </div>
+        </div>
         <hr>
-        <img src="./images/Ellipse 1.png">
-        <h3>josevaldo</h3>
-        <p>@joarquitetura</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio magnam quos omnis atque tenetur dolor,
-            tempore,
-            sit blanditiis qui nostrum laudantium aliquam recusandae deleniti voluptates quidem reiciendis veniam,
-            temporibus laboriosam!</p>
+        <div class="tweet">
+            <img class="tweet-icon" src="./images/Ellipse 1.png">
+            <h3>josevaldo</h3>
+            <p>@joarquitetura</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio magnam quos omnis atque tenetur dolor,
+                tempore,
+                sit blanditiis qui nostrum laudantium aliquam recusandae deleniti voluptates quidem reiciendis veniam,
+                temporibus laboriosam!</p>
+        </div>
+        <hr>
     </section>
+
     <section id="foot-bar">
-        <hr>
         <img src="./icons/mingcute_home-5-line.png">
         <img src="./icons/akar-icons_search.png">
         <img src="./icons/charm_bell.png">
