@@ -54,10 +54,9 @@ li {
     justify-content: space-around;
 }
 
-#editar {
+#editar-btn {
     float: right;
     margin-top: 25px;
-    padding: 10px;
-    border-radius: 45%;
-    border: 1px solid grey;
 }
+
+
